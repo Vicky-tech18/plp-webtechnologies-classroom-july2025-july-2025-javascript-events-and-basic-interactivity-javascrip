@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Part 1: This is where i handle the event -->
+
+    <section>
+      <h2>The Event Handling Section</h2>
+      <button id="msgBtn">Click Me</button>
+      <p id="output"></p>
+    </section>
+
+    <!-- Part 2: This is where i create my interactive elements -->
+
+    <section>
+      <h2>Light/Dark Mode Toggle</h2>
+      <button id="toggleTheme">Toggle Theme</button>
+    </section>
+
+    <section>
+      <h2>Counter Game</h2>
+      <button id="countBtn">Increase Counter</button>
+      <p id="countDisplay">0</p>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+
+    <section>
+      <h2>Form Validation</h2>
+      <form id="signupForm">
+        <input type="text" name="name" id="name" placeholder="Your Name">
+        <input type="email" name="email" id="email" placeholder="Your Mail">
+        <input type="password" name="password" id="password" placeholder="Your Password">
+            <button type="submit">SignUp</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
